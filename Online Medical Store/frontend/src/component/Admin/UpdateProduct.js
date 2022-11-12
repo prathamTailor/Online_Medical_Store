@@ -38,13 +38,13 @@ const UpdateProduct = ({ history, match }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "Medicine",
+    "Makeup",
+    "Hair",
+    "Skin Care",
+    "Baby Products",
+    "Homeopathy",
+    "Ayurvedic",
   ];
 
   const productId = match.params.id;
@@ -224,7 +224,7 @@ const UpdateProduct = ({ history, match }) => {
               type="submit"
               disabled={loading ? true : false}
             >
-              Create
+              Update
             </Button>
           </form>
         </div>
