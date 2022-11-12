@@ -14,7 +14,7 @@ const Footer = () => {
       </div>
 
       <div className="midFooter">
-        <h1>MEDICAL STORE.</h1>
+        <h1>MEDICAL STORE</h1>
         <p>High Quality is our first priority</p>
 
         <p>Copyrights 2021 &copy; Online Medical Store</p>

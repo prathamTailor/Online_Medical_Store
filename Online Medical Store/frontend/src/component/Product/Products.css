@@ -1,5 +1,6 @@
 .productsHeading {
   margin: 2vmax auto;
+  margin-top: 6vmax;
   width: 15vw;
   border-bottom: 1px solid rgba(0, 0, 0, 0.171);
   padding: 2vmax;
@@ -106,4 +107,14 @@
   .category-link {
     font: 400 1.8vmax "Roboto";
   }
+}
+
+
+.range-slider-min{
+  display: flex;
+  width: 50%;
+}
+.range-slider-max{
+  display: flex;
+  width: 50%;
 }

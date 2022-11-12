@@ -19,6 +19,7 @@
   overflow: hidden;
 }
 .login_signUp_toggle {
+  padding-top: 1.5vmax;
   display: flex;
   height: 3vmax;
 }

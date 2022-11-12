@@ -2,7 +2,6 @@ import React from "react";
 import "./sidebar.css";
 import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
-import { TreeItem } from "@material-ui/lab";
 import PostAddIcon from "@material-ui/icons/PostAdd";
 import AddIcon from "@material-ui/icons/Add";
 import ListAltIcon from "@material-ui/icons/ListAlt";

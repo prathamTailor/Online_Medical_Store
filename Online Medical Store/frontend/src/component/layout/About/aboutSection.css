@@ -1,11 +1,11 @@
 .aboutSection {
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   max-width: 100%;
   background-color: white;
   display: grid;
   grid-template-columns: 4fr 4fr;
-  position: fixed;
+  position: relative;
 }
 
 .aboutSectionGradient {
@@ -18,14 +18,12 @@
 
 .aboutSectionContainer {
   position: absolute;
-  left: 50%;
-  top: 50%;
+  top: 5rem;
+  left: 7rem;
   background-color: rgb(255, 255, 255);
   width: 80vw;
-  height: 80vh;
-  transform: translateX(-50%) translateY(-50%);
+  min-height: 80vh;
   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
-
   display: flex;
   flex-direction: column;
   align-items: center;
